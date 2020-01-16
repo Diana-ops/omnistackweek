@@ -29,11 +29,16 @@ Create a new file as [_index.js_](https://github.com/Diana-ops/omnistackweek). F
 $ node index.js
 ```
 
-> Is possible to see the response of request acessing http://localhost:3333/ in url.
+> Is possible to see the response of request acessing http://localhost:3333/
 
 For stop requestion, wirte CTRL+C.
 
 For observing the alterations while do you develop without to exit and enter the server, create:
 ```
-$ yarn add nodemon.js
+$ yarn add nodemon -D
+```
+
+For execute, write:
+```
+$ yarn nodemon index.js
 ```
