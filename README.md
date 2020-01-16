@@ -19,7 +19,7 @@ The goal is develop a app that can find developers based in technologies they ar
 
 - Install [Node.js 12.4.1 LTS](https://nodejs.org/en/) and after checking the instalation: 
 ```
-$ node -v 
+$ node -v or npm -v
 ```
 - Install [Chocolatelly](https://chocolatey.org/install) and after checking the instalation: 
 ```
