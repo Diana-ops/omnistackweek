@@ -24,7 +24,9 @@ Open the node.js command promtp, enter in the **same directory** and write:
 $ yarn add express
 ```
 
+Create a new file as [_index.js_](https://github.com/Diana-ops/omnistackweek). For execute the servidor, write:
+```
+$ node index.js
+```
 
-
-
-
+> Is possible to see the response of request acessing http://localhost:3333/ in url.
