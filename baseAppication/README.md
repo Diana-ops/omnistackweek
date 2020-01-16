@@ -9,15 +9,22 @@
 On command prompt:
 
 Create a directory 
+```
+$ mkdir appOmniStack/backend
+```
 
+Enter in this dir. and init a yarn (a new file packege.json will be criete)
 ```
-$ mkdir appOmniStack
-```
-
-Enter in this dir. and init a yarn
-```
-$ cd appOmniStack
+$ cd appOmniStack/backend
 $ yarn init -y
 ```
+
+Open the node.js command promtp, enter in the **same directory** and write: 
+```
+$ yarn add express
+```
+
+
+
 
 
