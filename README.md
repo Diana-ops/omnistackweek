@@ -17,5 +17,5 @@ The goal is develop a app that can find developers based in technologies they ar
 
 ## Which resources should be installed for develop this app?
 
-- [ ] Node.js 12.4.1 LTS (https://nodejs.org/en/)
-- [ ] Chocolatelly (https://chocolatey.org/install)
+- [X] Node.js 12.4.1 LTS (https://nodejs.org/en/)
+- [X] Chocolatelly (https://chocolatey.org/install)
