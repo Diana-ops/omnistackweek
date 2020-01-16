@@ -2,15 +2,22 @@
 
 ## Application Architecture
 
-### Backend
+![architeture](https://user-images.githubusercontent.com/46378210/72550799-44356a80-3872-11ea-8e88-7f48592fdeea.PNG)
 
-- Business rules
-- Database connection
-- Send of emails
-- Web services communication
-- User authentication 
-- Segurance and cryptography 
+## Steps in Windows 
 
-### Jason 
+On command prompt:
 
-### Front-end Web, Mobile end External Services 
+Create a directory 
+
+```
+$ mkdir appOmniStack
+```
+
+Enter in this dir. and init a yarn
+```
+$ cd appOmniStack
+$ yarn init -y
+```
+
+
