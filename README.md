@@ -17,9 +17,13 @@ The goal is develop a app that can find developers based in technologies they ar
 
 ## Which resources should be installed for develop this app? (for Windows)
 
-- [X] Node.js 12.4.1 LTS (https://nodejs.org/en/)
+- [Node.js 12.4.1 LTS](https://nodejs.org/en/)
 > For checking the instalation: 
 ```
 $ node -v 
 ```
-- [X] Chocolatelly (https://chocolatey.org/install)
+- [Chocolatelly](https://chocolatey.org/install)
+> For checking the instalation: 
+```
+$ choco -?
+```
