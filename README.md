@@ -25,3 +25,7 @@ $ node -v or npm -v
 ```
 $ choco -?
 ```
+- Install [Yarn](https://yarnpkg.com/en/docs/install#windows-stable), you can do this with chocolatelly and check with:
+```
+$ yarn -v 
+```
