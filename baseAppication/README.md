@@ -30,3 +30,10 @@ $ node index.js
 ```
 
 > Is possible to see the response of request acessing http://localhost:3333/ in url.
+
+For stop requestion, wirte CTRL+C.
+
+For observing the alterations while do you develop without to exit and enter the server, create:
+```
+$ yarn add nodemon.js
+```
