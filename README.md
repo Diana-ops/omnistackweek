@@ -29,3 +29,5 @@ $ choco -?
 ```
 $ yarn -v 
 ```
+- Was used the [Visual Code](https://code.visualstudio.com/) for write the codes, by I used [sublime](https://www.sublimetext.com/3) just 
+for being lighter
