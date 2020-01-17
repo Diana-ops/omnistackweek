@@ -1,4 +1,4 @@
-# Omni Stack Week - First Day (13/01)
+# Omni Stack Week 10 - First Day (13/01)
 
 ## What is app? 
 What is app? 
@@ -33,3 +33,5 @@ $ yarn -v
 for being lighter on my computer 
 
 - Install [Insomnia](https://insomnia.rest/download/) for to do the requests (GET, POST, etc).
+
+- The database will be create by [MongoDB](https://cloud.mongodb.com/).
