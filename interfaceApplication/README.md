@@ -13,3 +13,4 @@ For run the project, write:
 $ cd web
 $ yarn start
 ```
+> Again, is possible to see the response of request acessing http://localhost:3333/
