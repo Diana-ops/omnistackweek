@@ -35,3 +35,5 @@ for being lighter on my computer
 - Install [Insomnia](https://insomnia.rest/download/) for to do the requests (GET, POST, etc).
 
 - The database will be create by [MongoDB](https://cloud.mongodb.com/).
+
+- [MongoDBCompass] for to visualize the database of MongoDB
