@@ -13,4 +13,6 @@ For run the project, write:
 $ cd web
 $ yarn start
 ```
-> Again, is possible to see the response of request acessing http://localhost:3333/
+> Again, is possible to see the response of local request acessing http://localhost:3333/
+
+> For see the response on your network, do you need acess a url as the example: http://192.168.0.12:3000/, because the path change for each computer 
