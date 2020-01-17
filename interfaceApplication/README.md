@@ -8,3 +8,8 @@ For start this part of project, do you need create a new directory in the same h
 ```
 $ yarn create react-app web 
 ```
+For run the project, write:
+```
+$ cd web
+$ yarn start
+```
