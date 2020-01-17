@@ -42,3 +42,7 @@ For execute, write:
 ```
 $ yarn nodemon index.js
 ```
+For connect the database with your application:
+```
+$ yarn add mongoose
+```
