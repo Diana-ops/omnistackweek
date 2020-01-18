@@ -7,13 +7,19 @@ This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat).
 The goal is develop a app that can find developers based in technologies they are using next to your localization. In desktop version, just is possible to register the users. In mobile version, have will a map with the developers found from your technologies. 
 
 ## Which languages/frameworks/features were used?
-- Geolocalization API
+- Geolocalization API (for backend)
 
-- Java Script 
+- Java Script (for backend/frontend)
 
-- React
+- HTML, CSS (for frontend application)
+
+- React (for frontend application)
 
 - Node JS
+
+- React Native (for application mobile)
+
+- Expo (for application mobile)
 
 ## Which resources should be installed for develop this app? (for Windows)
 
@@ -35,3 +41,5 @@ for being lighter on my computer
 - Install [Insomnia](https://insomnia.rest/download/) for to do the requests (GET, POST, etc).
 
 - The database will be create by [MongoDB](https://cloud.mongodb.com/).
+
+- [MongoDBCompass](https://www.mongodb.com/download-center/compass) for to visualize the database of MongoDB
