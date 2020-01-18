@@ -19,6 +19,8 @@ The goal is develop a app that can find developers based in technologies they ar
 
 - React Native (for application mobile)
 
+- Expo (for application mobile)
+
 ## Which resources should be installed for develop this app? (for Windows)
 
 - Install [Node.js 12.4.1 LTS](https://nodejs.org/en/) and after checking the instalation: 
