@@ -21,3 +21,8 @@ For API can be acess by React, write in command prompt:
 ```
 $ yarn add cors 
 ```
+For use axios, write:
+```
+$ yarn add axios 
+```
+
