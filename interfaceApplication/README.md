@@ -10,7 +10,7 @@ $ yarn create react-app web
 ```
 For run the project, write:
 ```
-$ cd web
+$ cd web/src
 $ yarn start
 ```
 > Again, is possible to see the response of local request acessing http://localhost:3000/
@@ -23,6 +23,7 @@ $ yarn add cors
 ```
 For use axios, write:
 ```
+$ cd web/src
 $ yarn add axios 
 ```
 
