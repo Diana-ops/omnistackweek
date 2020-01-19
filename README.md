@@ -8,7 +8,19 @@ The goal is develop a app that can find developers based in technologies they ar
 
 ## For run app
 
-Do you need dowload the files of node_modules
+For run the backend of application: 
+```
+$ cd ../omnistack/baseApplication/backend/src/
+$ yarn init -y 
+$ yarn nodemon -D
+$ yarn nodemon index.js
+```
+For run the backend of application: 
+```
+$ cd ../omnistack/interfaceApplication/web/
+$ yarn init -y 
+$ yarn start
+```
 
 ## Which languages/frameworks/features were used?
 - Geolocalization API (for backend)
