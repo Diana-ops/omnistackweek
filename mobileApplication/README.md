@@ -33,3 +33,15 @@ $ expo install expo-localization
 
 $ expo install react-native-webview
 ```
+
+In backend directory, install
+```
+$ yarn add socket.io
+$ yarn add websocket.io
+```
+
+In mobile directory, install
+```
+$ yarn add socket.io-cliend
+```
+
