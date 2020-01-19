@@ -6,6 +6,10 @@ This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat).
 
 The goal is develop a app that can find developers based in technologies they are using next to your localization. In desktop version, just is possible to register the users. In mobile version, have will a map with the developers found from your technologies. 
 
+## For run app
+
+Do you need dowload the files of node_modules
+
 ## Which languages/frameworks/features were used?
 - Geolocalization API (for backend)
 
