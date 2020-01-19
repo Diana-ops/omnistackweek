@@ -8,17 +8,21 @@ The goal is develop a app that can find developers based in technologies they ar
 
 ## For run app
 
+> It is necessary to have the files of directory **node_modules** (I don't put in here because are many files)
+
 For run the backend of application: 
 ```
 $ cd ../omnistack/baseApplication/backend/src/
-$ yarn init -y 
-$ yarn nodemon -D
 $ yarn nodemon index.js
 ```
-For run the backend of application: 
+For run the frontend of application: 
 ```
 $ cd ../omnistack/interfaceApplication/web/
-$ yarn init -y 
+$ yarn start
+```
+For run the mobile version of application: 
+```
+$ cd ../omnistack/mobileApplication/
 $ yarn start
 ```
 
