@@ -1,9 +1,16 @@
 import React, { useEffect } from 'react';
+
+//Importando mapas 
 import MapView, { Marker } from 'react-native-maps';
+
+//Para usar propriedades do HTML e CSS no JS com React Native 
 import { StyleSheet, Image, View, Text, TextInput, TouchableOpacity, Keyboard } from 'react-native';
-import { MaterialIcons } from '@axpo/vector-icons';//Importando icons  
+
+//Importando icons  
+import { MaterialIcons } from '@axpo/vector-icons';
 
 import api from '../services/api';
+import { connect, disconnect } from '../services/sockets';
 
 //Pede permissão para o usuário/ Pega a localização do usuário
 import { requestPermissionsAsync, getCurrentPositionAsync} from 'expo-location';
@@ -47,6 +54,23 @@ function Main({ navigation }){
 
 	},[]);
 
+	useEffect(() => {
+		//Adicionando um novo dev e mantendo os que já existiam 
+		subscribeToNewDevs(dev => setDevs([..devs,dev]));
+	}, [devs]);
+
+	function setupWebsocket() {
+
+		disconnect();
+
+		const { latitude, longitude } = currentRegion; //Local em que o usuário está no mapa
+		connect(
+			latitude,
+			longitude,
+			techs,
+		);
+	}
+
 	async function loadDevs() {
 		const { latitude, longitude } = currentRegion;
 		const response = await api.get('./search', {
@@ -58,6 +82,7 @@ function Main({ navigation }){
 		});
 
 		setDevs(response.data.devs);
+		setupWebsocket();
 	}
 
 	function handleRegionChanged(region) { //Quando o usuário muda a localização no mapa

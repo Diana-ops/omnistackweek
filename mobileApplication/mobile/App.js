@@ -1,7 +1,11 @@
 import React from 'react';
-import { StatusBar } from 'react-native'; //Component
+import { StatusBar, YellowBox } from 'react-native'; //Component
 
 import Router from './src/routes';
+
+YellowBox.ignoreWarning([
+	'Unrecognized WebSocket'
+]);
 
 export default function App() {
   return (
