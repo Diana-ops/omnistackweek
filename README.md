@@ -8,6 +8,8 @@ This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat). The
 
 I got better the **frontend** part of application, let the desktop version more or less like that:
 
+![layoutDesktop](https://user-images.githubusercontent.com/46378210/72940877-73564b00-3d4e-11ea-97cc-146c2e7dbd59.png)
+
 ## For run app
 
 > It is necessary to have the files of directory **node_modules** (I don't put in here because are many files)
