@@ -2,9 +2,33 @@
 
 ## What is app? 
 
-This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat). 
+<p align="justify">
+This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat). The goal is develop a app that can find developers based in technologies they are using next to your localization. In desktop version, just is possible to register the users. In mobile version, have will a map with the developers found from your technologies. 
+</p>
 
-The goal is develop a app that can find developers based in technologies they are using next to your localization. In desktop version, just is possible to register the users. In mobile version, have will a map with the developers found from your technologies. 
+I got better the **frontend** part of application, let the desktop version more or less like that:
+
+![layoutDesktop](https://user-images.githubusercontent.com/46378210/72940877-73564b00-3d4e-11ea-97cc-146c2e7dbd59.png)
+
+## For run app
+
+> It is necessary to have the files of directory **node_modules** (I don't put in here because are many files)
+
+For run the backend of application: 
+```
+$ cd ../omnistack/baseApplication/backend/src/
+$ yarn nodemon index.js
+```
+For run the frontend of application: 
+```
+$ cd ../omnistack/interfaceApplication/web/
+$ yarn start
+```
+For run the mobile version of application: 
+```
+$ cd ../omnistack/mobileApplication/
+$ yarn start
+```
 
 ## Which languages/frameworks/features were used?
 - Geolocalization API (for backend)
