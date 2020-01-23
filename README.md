@@ -8,11 +8,11 @@
 This a app was developed in Omni Stack Week by Diego Fernandes (Rocketseat). The goal is develop a app that can find developers based in technologies they are using next to your localization. In desktop version, just is possible to register the users. In mobile version, have will a map with the developers found from your technologies. 
 </p>
 
-I got better the **frontend** part of application, let the desktop version more or less like that:
+I got better the **frontend** part of application, let the desktop version (web) more or less like that:
 
 ![layoutDesktop](https://user-images.githubusercontent.com/46378210/72991301-8578cd80-3dd0-11ea-8e3e-18ea0509fa6e.png)
 
-And I let the mobile version more or less like that:
+And I let the mobile version (web) more or less like that:
 
 ![layoutMobile](https://user-images.githubusercontent.com/46378210/72991303-8578cd80-3dd0-11ea-813f-b0271ce91d45.png)
 
