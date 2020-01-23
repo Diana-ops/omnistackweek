@@ -10,6 +10,8 @@ I got better the **frontend** part of application, let the desktop version more 
 
 ![layoutDesktop](https://user-images.githubusercontent.com/46378210/72991301-8578cd80-3dd0-11ea-8e3e-18ea0509fa6e.png)
 
+And I let the mobile version more or less like that:
+
 ![layoutMobile](https://user-images.githubusercontent.com/46378210/72991303-8578cd80-3dd0-11ea-813f-b0271ce91d45.png)
 
 ## For run app
