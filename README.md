@@ -73,3 +73,9 @@ for being lighter on my computer
 - The database will be create by [MongoDB](https://cloud.mongodb.com/).
 
 - [MongoDBCompass](https://www.mongodb.com/download-center/compass) for to visualize the database of MongoDB
+
+<hr>
+
+If you can and wanted give me some **feedback** about my project or README.md, send me a **Pull Requests**. Advices are many welcome and constructive for me :smile:
+
+Give me a **Star** if this project help or inspired you somehow :star:
