@@ -1,9 +1,9 @@
-# Omni Stack Week - Third Day (15/01)
+![titleThird](https://user-images.githubusercontent.com/46378210/73003008-ad256100-3de3-11ea-9442-a6f6d81dd44d.PNG)
 
 ## Goals:
 
-Develop the frontend of application with React.
-For start this part of project, do you need create a new directory in the same hierarchy of **backend**. Before, a new directory called **web** will be create with many other directories and filles... 
+<p align="justify">
+Develop the frontend of application with React. For start this part of project, do you need create a new directory in the same hierarchy of <strong>backend</strong>. Before, a new directory called <strong>web</strong> will be create with many other directories and filles. </p>
 
 ```
 $ yarn create react-app web 
