@@ -1,0 +1,63 @@
+/*
+* Author: Diana Regina 
+* Function: To style elements for 
+*/
+
+/*Div*/
+.rodape{
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 10%;
+	left: 0;
+	margin-bottom: 0;
+	margin-top: 190%;
+
+	text-align: center;
+}
+
+/*Text*/
+
+.rodapeText {
+	margin-top: 2%;
+	color: white;
+}
+
+/*Links for acess Linkdin from Diana R. and Diego F*/
+.linkDin {
+	text-decoration: none;
+	color: orange;
+}
+
+.linkDin:hover{
+	color: gray;
+}
+
+@media (max-width: 650px){ /*One column of itens*/
+	.rodape{
+		position: absolute;
+		top: 510%;
+		margin-top: 0%;
+		width: 100%;
+		left: -10px;
+		padding: 2% 2%;
+	}
+	.text{
+		font-size: 20px;
+		margin-top: 240%;
+		margin-left: 11%;
+	}
+
+	.rodapeText {
+		margin-top: 1%;
+		color: white;
+	}
+
+}
+
+@media (max-width: 525px){ /*One column of itens smaller*/
+	.rodape{
+		top: 525%;
+	}
+
+}

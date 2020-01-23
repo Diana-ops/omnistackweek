@@ -1,67 +1,102 @@
-aside {
-	width: 320px;
-	background: #FFF;
-	box-shadow: 0 0 14px 0 rgb(0, 0, 0, 0.02);
-	border-radius:  2px;
-	padding:  30px 20px;
+/*Header*/
+.greenHeader{
+	position: absolute;
+	background: linear-gradient(to top,rgb(240,240,240),black);
+
+	width: 100%;
+	height: 650px;
+	top: 0;
+	left: 0;
 }
 
-aside strong{
-	font-size: 20px;
+/*Formulário*/
+
+.form {
+	position: absolute;
+	/*width: 400px;*/
+	background: #FFF;
+	box-shadow: 5px 5px 5px #aaaaaa;
+	border-radius:  4px;
+	padding:  30px 20px;
+	margin-top: 700px;
+	margin-left: 30%;
+}
+
+.form strong{
+	position: absolute;
+	font-size: 30px;
 	text-align: center;
 	display: block;
-	color: #333;
+	color:  rgb(255,217,102);
+	top: 10px;
+	left: 135px;
 }
 
-aside form{
+.form form{
 	margin-top: 30px;
 }
 
-aside form .input-block + .input-block{
+.form form .input-block + .input-block{
 	margin-top: 20px;
 }
 
-aside form .input-group{
+.form form .input-group{
 	margin-top: 20px;
 	display: grid;
 	gap: 20px;
 	grid-template-columns: 1fr 1fr;
 }
 
-aside form .input-group .input-block{
+.form form .input-group .input-block{
 	margin-top: 0;
 }
 
-aside form .input-block label{
-	color: #ACACAC;
-	font-size: 14px;
-	font-weight: bold;
+.form form .input-block label{
+	color: black;
+	font-size: 20px;
 	display: block;
+
+	/* rgb(180,182,176)*/
 }
 
-aside form .input-block input{
+.form form .input-block input{
 	width: 100%;
-	height: 32px;
+	height: 50px;
 	font-size: 14px;
 	color: #666;
 	border: 0;
 	border-bottom: 1px solid #eee;
 }
 
-aside form button[type=submit]{
+.form form button[type=submit]{
 	width: 100%;
 	border: 0;
 	margin-top: 30px;
-	background: #7d40e7;
-	border-radius: 2px;
+	background:  linear-gradient(to right, orange, pink);
+	border-radius: 5px;
 	padding: 15px 20px;
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
 	cursor: pointer;
 	transition: background 0.5s;
+	text-align: center;
+
 }
 
-aside form button[type=submit]:hover{
-	background: #6931ca; 
+.form form button[type=submit]:hover{
+	background: orange; 
+	box-shadow: -2px 3px 0.5px rgb(225,226,224);
+}
+
+/*We have some developers for you*/
+.text{
+	position: absolute;
+	margin-top: 97%;
+	font-size: 40px;
+	color: #FF1493;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
 }

@@ -1,10 +1,35 @@
-li.dev-item{
-	background: #FFF;
-	box-shadow: 0 0 14px 0 rgb(0, 0, 0, 0.02);
-	border-radius:  2px;
-	padding: 20px;	
+li.dev-item:nth-child(1){ /*Seleciona o primeiro registro*/
+	margin-top: 1350px;
 }
+li.dev-item:nth-child(2){ /*Seleciona o segundo registro*/
+	margin-top: 1350px;
+}
+li.dev-item{
+	background: white;
+	box-shadow: 0 0 14px 0 rgb(0, 0, 0, 0.02);
+	border-radius:  10px;
+	padding: 20px;	
+	opacity: 0.8;
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+.text1, .text2{
+	position: absolute;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
 
+}
+.text1{
+	margin-top: 200px;
+}
+.text2{
+	margin-top: 300px;
+}
+.text2Tech{
+	color: orange;
+}
 li.dev-item header{
 	display: flex;
 	flex-direction: row;
@@ -13,8 +38,8 @@ li.dev-item header{
 }
 
 li.dev-item header img{
-	width: 56px;
-	height: 54px;
+	width: 54px;
+	height: 56px;
 	border-radius: 50%;
 }
 
@@ -42,12 +67,20 @@ li.dev-icon p {
 }
 
 li.dev-item a{
-	color: #8e4dff;
+	color: orange;
 	font-size: 14px;
 	text-decoration: none;
 }
 
 li.dev-item a:hover{
-	color: #5a2ea6;
+	color: gray;
+
+}
+
+/*Responsive*/
+@media (max-width: 1000px){
+	.text2{
+		margin-top: 350px;
+	}
 
 }

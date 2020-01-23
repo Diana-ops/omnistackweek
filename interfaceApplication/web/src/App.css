@@ -4,13 +4,15 @@
 	padding: 60px 30px;
 
 	display: flex;
-	flex-direction: row; /*Everthing side to side*/
+	flex-direction: center; /*Everthing side to side*/
 	align-items: flex-start; /*Always in the top*/
+	background-color: rgb(240,240,240);
 }
 
 #app main{
-	margin-left: 30px;
+	margin-left: 5px;
 }
+
 
 @media (max-width: 1000px){
 	#app{
@@ -22,7 +24,7 @@
 		margin-top: 30px;
 	}
 
-	#app aside{
-		width: 100%;
+	#app .form{
+		margin-left: 6%;
 	}
 }

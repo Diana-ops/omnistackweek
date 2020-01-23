@@ -47,10 +47,18 @@ function DevForm({ onSubmit }){
 
 
   return(
+    <>
+    <div className="greenHeader">
+      <p className="text1">Find developers based on </p>
+      <p className="text2">their <strong className="text2Tech">technologies</strong> 10km away </p>
+    </div>
+    <div className="form">
     <form onSubmit={handleSubmit}>
+          <strong>Register</strong>
           <div className="input-block">
-            <label htmlFor="github_username">Usuário do Github</label>
+            <label htmlFor="github_username">User of Github</label>
             <input 
+              placeholder = "Ex: Diana-ops"
               name="github_username" 
               id="github_username" 
               required 
@@ -60,8 +68,10 @@ function DevForm({ onSubmit }){
           </div>
 
           <div className="input-block">
-            <label htmlFor="techs">Tecnologias</label>
+            <label htmlFor="techs">Technologies</label>
             <input 
+              placeholder = "Ex: Python, C, HTML"
+
               name="techs" 
               id="techs" 
               required 
@@ -93,8 +103,12 @@ function DevForm({ onSubmit }){
               />
             </div>
           </div>
-          <button type="submit">Salvar</button>
+          <button type="submit">Save my Datas</button>
         </form>
+        </div>
+
+        <p className="text">We have some developers for you</p>
+        </>
   )
 }
 

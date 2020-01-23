@@ -12,6 +12,18 @@ main ul{
 @media (max-width: 650px){
 	main ul{
 		grid-template-columns:  1fr;
+	}
+	li.dev-item:nth-child(1){ /*Seleciona o primeiro registro*/
+		position: absolute;
+		top: -65px;
+		width: 88%;
+		padding: 10px 20px;
+		margin: 0 auto;
 	}	
+
+	.rodape{
+		margin-top: 200%;
+
+	}
 }
 

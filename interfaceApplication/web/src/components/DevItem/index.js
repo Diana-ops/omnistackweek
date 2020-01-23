@@ -3,6 +3,7 @@ import './style.css';
 
 function DevItem({ dev }) {
     return (
+        <>
         <li className="dev-item">
           <header>
             <img src={dev.avatar_url} alt={dev.name}/>
@@ -12,8 +13,9 @@ function DevItem({ dev }) {
             </div>
           </header>
           <p>{dev.bio}</p>
-          <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no Github</a>
+          <a href={`https://github.com/${dev.github_username}`}>Acess profile in Github</a>
         </li>
+        </>
     )
 }
 

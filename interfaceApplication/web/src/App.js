@@ -8,6 +8,7 @@ import './Main.css'
 
 import DevForm from "./components/DevForm";
 import DevItem  from "./components/DevItem";
+import Rodape  from "./components/Rodape";
 
 /*Conceps about React
  Components: it is a function that return some HTML or CSS, something that repeate. 
@@ -51,27 +52,20 @@ function App() {
 
   return (
     <div id="app">
-      <aside>
-        <strong>Register</strong>
+      <div className="formDiv">
         <DevForm onSubmit={handleAddDev}/>
-      </aside>
+      </div>
 
       <main>
-
-
         <ul>
 
           {devs.map(dev => (
-
             <DevItem key={dev._id} dev={dev}/>
-
           ))}
-
-          
-
         </ul>
-
       </main>
+
+      <Rodape/>
 
     </div>
 
