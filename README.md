@@ -1,4 +1,6 @@
-# Omni Stack Week 10 - First Day (13/01)
+
+![title](https://user-images.githubusercontent.com/46378210/72995771-3a62b880-3dd8-11ea-8f7f-f08476f19314.PNG)
+
 
 ## What is app? 
 
