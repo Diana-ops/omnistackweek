@@ -1,8 +1,10 @@
-# Omni Stack Week - Second Day (14/01)
+![titleSecond](https://user-images.githubusercontent.com/46378210/73003007-ac8cca80-3de3-11ea-89ff-3204d0ae2ccd.PNG)
 
 ## Application Architecture
 
-![architeture](https://user-images.githubusercontent.com/46378210/72550799-44356a80-3872-11ea-8e88-7f48592fdeea.PNG)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46378210/72550799-44356a80-3872-11ea-8e88-7f48592fdeea.PNG"/>
+</p>
 
 ## Steps in Windows 
 
