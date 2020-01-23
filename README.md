@@ -18,19 +18,19 @@ And I let the mobile version more or less like that:
 
 ## For run app
 
-> It is necessary to have the files of directory **node_modules** (I don't put in here because are many files)
+> It is necessary to have the files of directory **node_modules** (I don't put in here because are many files) :grimacing:
 
-For run the backend of application: 
+**For run the backend of application:**
 ```
 $ cd ../omnistack/baseApplication/backend/src/
 $ yarn nodemon index.js
 ```
-For run the frontend of application: 
+**For run the frontend of application:**
 ```
 $ cd ../omnistack/interfaceApplication/web/
 $ yarn start
 ```
-For run the mobile version of application: 
+**For run the mobile version of application:**
 ```
 $ cd ../omnistack/mobileApplication/
 $ yarn start
