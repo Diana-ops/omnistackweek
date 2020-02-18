@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*GLOBAL*/
+
+* {
+	/*Todos os elementos vão respeitar limites*/
+	/*Mantem o 100% após a aplicação do padding*/
+	box-sizing: border-box;
+}
+html, body{
+	margin: 0;
+}
+
+body {
+	/*O conteudo fica um do lado do outro*/
+	display: flex;
+
+	/*Agora, podemos deixa-lo em forma de coluna novamente*/
+	flex-direction: column;
+
+	/*Pega 100% da altura*/
+	height: 100vh; 
+
+	font-family: 'Roboto', sans-serif;
+
+	background-color: #f9f9f9;
+}
+
+/*TITULOS*/
+header h1, main h2 {
+	margin-bottom: 70px;
+}
+
+h1, h2 {
+	color: #000000cc;
+}
+
+header, main, footer {
+	text-align: center;
+}
+
+.form h2 {
+	text-align: right;
+
+	margin-right: 50px;
+
+	/*Poderiamos colocar transparencia*/
+	color: #fff;
+	font-size: 18px;
+}
+
+
+header, main, .form {
+
+	/*Limita a abertura desses elementos, ou seja,
+	 nem sempre teremos 90% de largura*/
+	width: 90%;
+	max-width: 500px;
+
+	/*Mantendo margem automática, para que esses
+	elementos fiquem fixos no meio*/
+
+	/*right, buttom, left e top*/
+	margin: 0 auto 70px;
+}
+
+/*HEADER*/
+
+header button {
+	margin-top: 16px;
+	padding: 8px 16px;
+	border-radius: 4px;
+	border: none;
+
+	background-color: #ff4f4f;
+
+	color: #fff;
+
+	font-weight: bold;
+}
+
+
+section.form {
+	display: grid;
+
+	/*2 colunas*/
+	grid-template-columns: 1fr 1fr;
+
+	/*Espaçamento do grid*/
+	grid-gap: 45px;
+
+	/*Alinhamento xy*/
+	align-items: center;
+
+	background-color: #ff4f4f;
+
+	padding: 16px 64px;
+
+	border-radius: 6px;
+}
+
+
+form input, form button {
+	width: 100%;
+
+	margin-bottom: 4px;
+
+	/*Top-Buttom Left-Right*/
+	padding: 8px 16px;
+
+	border-radius: 4px;
+	border: 1px #ffffff88 solid;
+}
+
+form input {
+	background-color: transparent;
+}
+
+/*o place é um speceudo elemento*/
+form input:placeholder
+{
+	color: white;
+}
+
+form button {
+	font-weight: bold;
+}
+/*Aplicação de uma cascata, 
+assim podemos ter classes iguais, 
+mas em cascatas diferentes*/
+main h2 span
+{
+	color: #ff4f4f;
+}
+main .donors {
+	display: grid;
+
+	/*Faça 4 colunas flexivel, já fica responsivo*/
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*RODAPÉ*/
+footer {
+	/*Aplica uma margem no topo automaticamente*/
+	margin-top: auto;
+
+	/*Aplica ao redor do elemento*/
+	padding: 16px;
+
+	/*Colocando uma linha*/
+	border: 1px solid #eeee; 
+}
+
+
