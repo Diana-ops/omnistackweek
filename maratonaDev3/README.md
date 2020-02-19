@@ -31,9 +31,9 @@ Is possible to see the response of local request acessing http://localhost:3000/
 
 ## Which languages/resources were used?
 
-- HTML
-- CSS
-- JavaScript
+- HTML: structure of frontend
+- CSS: style of frontend:
+- JavaScript: animations and data flow about name and blood types 
 - [postgreSQL](https://www.postgresql.org/download/): for create a database 
 - [NodeJS](https://nodejs.org/en/): for develop a environment to work with JS server
 
