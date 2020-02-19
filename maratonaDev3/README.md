@@ -34,8 +34,8 @@ Is possible to see the response of local request acessing http://localhost:3000/
 - HTML
 - CSS
 - JavaScript
-- [postgreSQL](https://www.postgresql.org/download/): database 
-- [NodeJS](https://nodejs.org/en/)
+- [postgreSQL](https://www.postgresql.org/download/): for create a database 
+- [NodeJS](https://nodejs.org/en/): for develop a environment to work with JS server
 
 ## Which resources should be installed for develop this app?
 
@@ -43,8 +43,13 @@ For create a project to run backend and frontend, execute:
 ```
 $ npm npm init -y ou yarn init -y
 ```
-Greate, a file caled [package.json](https://github.com/Diana-ops/rocketseatProjects/blob/master/maratonaDev3/package.json) will be create 
+Greate, a file caled [package.json](https://github.com/Diana-ops/rocketseatProjects/blob/master/maratonaDev3/package.json) will be create.
 
+For to work with server manager, execute: 
+```
+$ npm install express
+```
+Greate, a folter called node_mdules and a file [package-lock.json](https://github.com/Diana-ops/rocketseatProjects/blob/master/maratonaDev3/package-lock.json) will be create
 
 <hr>
 
