@@ -8,7 +8,11 @@
 	</head>
 	<body>
 		<header>
-			<h1>DOE</h1>
+			 <img 
+			 	class="logo"
+			 	src="logo.png" 
+			 	alt="logo" 
+			 />
 			<h2>A sua doação importa</h2>
 			<p>A sua doação importa</p>
 			<p>Até 3 vidas com 1 doação</p>
@@ -17,9 +21,9 @@
 
 			<button>Quero ajudar</button>
 		</header>
-		<section class="form">
+		<section class="form hide">
 							<h2>Entre na lista de doadores</h2>
-			<form action="/">
+			<form action="/" method="POST">
 
 				<input 
 					type="text"
@@ -47,30 +51,24 @@
 
 			<section class="donors">
 
-				<div class="donor">
-					<div class="blood">AB+</div>
-					<p>Diana Regina</p>
-				</div>
+				<!--Recebendo os dados do server para criar a lista de doadores-->
 
-				<div class="donor">
-					<div class="blood">A+</div>
-					<p>Diego Fernades</p>
-				</div>
+				{% for donor in donors %}
 
-				<div class="donor">
-					<div class="blood">B+</div>
-					<p>Sara Sampaio</p>
-				</div>
+					<div class="donor">
+						<div class="blood">{{donor.blood}}</div>
+						<p>{{donor.name}}</p>
+					</div>
 
-				<div class="donor">
-					<div class="blood">O+</div>
-					<p>Jorge Ticiano</p>
-				</div>
+				{%endfor%}
+
 			</section>
 		</main>
 
 		<footer>
 			Desenvolvido por: Diana Regina com Rocketseat
 		</footer>
+		<script src="script.js" type="text/javascript"></script>
+
 	</body>
 </html>

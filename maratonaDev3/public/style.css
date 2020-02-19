@@ -25,6 +25,15 @@ body {
 	background-color: #f9f9f9;
 }
 
+.logo {
+	width: 120px;
+	margin: 70px 0;
+}
+
+header p {
+	font-size: 14px;
+}
+
 /*TITULOS*/
 header h1, main h2 {
 	margin-bottom: 70px;
@@ -138,6 +147,48 @@ main .donors {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/*Estilização dos doadores*/
+
+.blood {
+	color: #ff4f4f;
+	font-weight: bold;
+	font-size: 12px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+
+}
+/*Pseudo elemento*/
+.blood::before{
+
+	/*Cria um elemento chamado before em blood*/
+	content: "";
+	background-color: #ff4f4f11;
+
+	width: 40px;
+	height: 40px;
+
+	/*Deixa o texto dentro do elemento criado*/
+	position: absolute;
+
+	/*Montando uma gota*/
+	border-radius: 50%;
+	border-top-right-radius: 0;
+
+	/*Gira a ponta criada acima*/
+	transform: rotate(-45deg);
+}
+
+/*Nome dos doadores*/
+.donor p {
+	margin-top: 24px;
+	margin-bottom: 64px;
+	font-size: 14px;
+}
+
 /*RODAPÉ*/
 footer {
 	/*Aplica uma margem no topo automaticamente*/
@@ -150,4 +201,14 @@ footer {
 	border: 1px solid #eeee; 
 }
 
+/*Funcionalidades com JS*/
+section.form {
+	transition: all 300ms;
+}
+section.form.hide {
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
 
+	margin-top: -70px;
+}
