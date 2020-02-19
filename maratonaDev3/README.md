@@ -1,8 +1,17 @@
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/46378210/74862690-5a2fc280-532b-11ea-919a-a6dd602643e1.png"/>
+</p>
+
 ## What is app? 
 
-<p align="justify"> 
+<p align="justify">
   A website for to register blood donors. The informations about name, email and  blood type was inputs in form was stored in database (backend) and send for interface again (frontend).
 </p>
+
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/46378210/74865838-86017700-5330-11ea-9874-977fd10b082a.png"/>
+</p>
+  
 
 ## For run app
 
