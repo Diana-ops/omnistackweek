@@ -49,8 +49,22 @@ For to work with server manager, execute:
 ```
 $ npm install express
 ```
-Greate, a folter called node_mdules and a file [package-lock.json](https://github.com/Diana-ops/rocketseatProjects/blob/master/maratonaDev3/package-lock.json) will be create
+Greate, a folter called node_mdules and a file [package-lock.json](https://github.com/Diana-ops/rocketseatProjects/blob/master/maratonaDev3/package-lock.json) will be create.
 
+For observing the alterations while do you develop without to exit and enter the server, create:
+```
+$ npm install nodemon 
+```
+
+For create tampletes, execute:
+```
+$ npm install nunjucks
+```
+
+Before install the postgreSQL, for to conect the database with nodejs, execute:
+```
+$ npm install pg
+```
 <hr>
 
 If you can and wanted give me some **feedback** about my project or README.md, send me a **Pull Requests** or **Issues**. Advices are many welcome and constructive for me :smile:
